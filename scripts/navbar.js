@@ -1,6 +1,6 @@
 document.writeln("		<div class=\'navbar-block\'>");
 document.writeln("			<li class=\'navbar-maintext\'>SNR团队官方网站</li>");
-document.writeln("			<li><a href=\'https://huangeiwoliugebi.github.io\' class=\'navbar-linkl\'>主页</a></li>");
+document.writeln("			<li><a href=\'0-homepage.html\' class=\'navbar-linkl\'>主页</a></li>");
 document.writeln("			<li><a href=\'#\' class=\'navbar-linkl\' onclick=\'javascript:history.back(-1);\'>上页</a></li>");
 document.writeln("			<li><a href=\'https://github.com/HuanGeiWoLiuGeBi\' class=\'navbar-linkr\' target=\'_blank\'>Github</a></li>");
 document.writeln("			<li><a href=\'https://space.bilibili.com/590621781\' class=\'navbar-linkr\' target=\'_blank\'>Bilibili</a></li>");
@@ -8,4 +8,5 @@ document.writeln("			<li><p class=\'navbar-text\'>还给我六个币</p></li>");
 document.writeln("			<li><a href=\'https://github.com/Return761\' class=\'navbar-linkr\' target=\'_blank\'>Github</a></li>");
 document.writeln("			<li><a href=\'https://space.bilibili.com/1986062921\' class=\'navbar-linkr\' target=\'_blank\'>Bilibili</a></li>");
 document.writeln("			<li><p class=\'navbar-text\'>Return_761</p></li>");
-document.writeln("		</div>");
+document.writeln("	    </div>");
+document.writeln("      <div class=\'article-block\'></div>");
