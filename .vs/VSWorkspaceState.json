@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pages",
+    "\\scripts",
+    "\\styles"
   ],
-  "SelectedNode": "\\C:\\Users\\R_761\\Source\\Repos\\huangeiwoliugebi.github.io",
+  "SelectedNode": "\\pages\\0-homepage.html",
   "PreviewInSolutionExplorer": false
 }
