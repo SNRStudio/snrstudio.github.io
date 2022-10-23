@@ -1,5 +1,5 @@
 document.writeln("		<div class=\'navbar-block\'>");
-document.writeln("			<style>img{width:50px;height:50px;margin:0px 0px 0px 10px}</style > ");
+document.writeln("			<style>img{width:50px;height:50px;margin:0px 0px 0px 10px;text-shadow: 0px 0px 5px #000000;}</style > ");
 document.writeln("			<li><img src=\'Allay.gif\' alt=\'悦灵（基翻：小安粒）\' title=\'Image\'  style=\'float: left\' margin:0px 0px 0px 10px /></li>");
 document.writeln("			<li class=\'navbar-maintext\'>SNR团队官方网站</li>");
 document.writeln("			<li><a href=\'0-homepage.html\' class=\'navbar-linkl\'>主页</a></li>");
