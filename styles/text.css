@@ -15,8 +15,15 @@ p {
     color: #000000;
 }
 
-.text-update {
-    color: #BBBBBB;
+.text-locate {
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.text-updtime {
+    margin: 0px;
+    margin-left: 30px;
+    color: #999999;
 }
 
 .text-title1 {
@@ -24,7 +31,24 @@ p {
     font-weight: bold;
 }
 
+.text-title2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     color: #2780E3;
+}
+
+*::selection {
+    background-color: rgba(124, 185, 255, 0.5);
+}
+
+*::-moz-selection {
+    background-color: rgba(124, 185, 255, 0.5);
+}
+ 
+*::-webkit-selection {
+    background-color: rgba(124, 185, 255, 0.5);
 }
