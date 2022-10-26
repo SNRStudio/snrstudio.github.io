@@ -1,5 +1,7 @@
 p {
-    margin: 30px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     word-wrap: break-word;
     word-break: break-all;
     overflow:auto;
