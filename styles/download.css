@@ -2,11 +2,11 @@
     height: 30px;
     width: 120px;
     margin: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     float: left;
     border-radius: 6px;
-	box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
     background-image: url(../images/download-icon-baidunetdisk.png);
     background-size: 100% 100%;
 }

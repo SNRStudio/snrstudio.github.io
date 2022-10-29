@@ -1,7 +1,7 @@
 p {
     margin: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     word-wrap: break-word;
     word-break: break-all;
     overflow:auto;
@@ -9,6 +9,8 @@ p {
 
 .text-common {
     color: #000000;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .text-nomargin {
@@ -18,13 +20,16 @@ p {
 }
 
 .text-locate {
-    margin: 0px;
-    margin-left: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .text-updtime {
-    margin: 0px;
-    margin-left: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:0;
     color: #707070;
 }
 

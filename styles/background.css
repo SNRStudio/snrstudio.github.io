@@ -1,0 +1,10 @@
+.background-block {
+    height: 100%;
+    background: #d4feff59;
+    position: fixed;
+    z-index: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    #box-shadow:0px 0px 5px #000000;
+}
