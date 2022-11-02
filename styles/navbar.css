@@ -1,0 +1,61 @@
+.navbar-block {
+    height: 50px;
+    width: 100%;
+	background-color: #2780E3;
+	box-shadow: 0px 0px 5px #000000;
+	backdrop-filter: blur(10px);
+	overflow: hidden;
+}
+
+.navbar-image {
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-title {
+    float: left;
+    margin-top: 12px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #000000;
+    width: 170px;
+    text-align: center;
+}
+
+.navbar-homepage {
+    float: left;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    margin-left: 15px;
+    transition: 0.3s linear;
+}
+
+.navbar-homepage:hover {
+    color: #FFFFFF;
+    transition: 0.3s linear;
+}
+
+.navbar-website {
+    float: right;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    margin-right: 15px;
+    transition: 0.3s linear;
+}
+
+.navbar-website:hover {
+    color: #FFFFFF;
+    transition: 0.3s linear;
+}
+
+.navbar-websitet {
+    float: right;
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-top: 14px;
+    margin-right: 15px;
+}

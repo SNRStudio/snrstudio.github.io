@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    background: url(../images/body-background.png)fixed center;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+*::selection {
+    background-color: rgba(124, 185, 255, 0.5);
+}
+
+*::-moz-selection {
+    background-color: rgba(124, 185, 255, 0.5);
+}
+ 
+*::-webkit-selection {
+    background-color: rgba(124, 185, 255, 0.5);
+}
