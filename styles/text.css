@@ -18,28 +18,19 @@ a {
 .text-title1 {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .text-locate {
-    background-color: rgba(255, 255, 255,0.7);
-    padding-top: 3px;
-    padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 5px #808080;
-    margin-bottom: 10px;
+    margin: 0px;
 }
 
 .text-update {
-    background-color: rgba(255, 255, 255,0.7);
-    padding-top: 3px;
-    padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 5px #808080;
-    margin-bottom: 10px;
-    color: #777777;
+    margin: 0px;
+    color: #808080;
+}
+
+text-common {
+    margin: 0px;
+    color: #000000;
 }
