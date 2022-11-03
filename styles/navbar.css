@@ -1,15 +1,15 @@
 .navbar-block {
     height: 50px;
     width: 100%;
-	background-color: rgba(255, 255, 255, 0.7);
-	backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-	overflow: hidden;
+    overflow: hidden;
     background-position-x: 0px;
     position: fixed;
     top: 0px;
     z-index: 999;
-    box-shadow: 0px 2px 5px #808080;
+    box-shadow: 0px 0px 5px #808080;
 }
 
 .navbar-image {
@@ -38,7 +38,7 @@
 }
 
 .navbar-homepage:hover {
-    color: #FFFFFF;
+    color: #000000;
     transition: 0.3s linear;
 }
 

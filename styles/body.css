@@ -2,7 +2,7 @@ body {
     margin: 0px;
     background: url(../images/body-background.png) fixed center;
     background-size: cover;
-    min-width: 800px;
+    min-width: 570px;
 }
 
 body::-webkit-scrollbar {
