@@ -42,25 +42,3 @@
     color: #000000;
     transition: 0.3s linear;
 }
-
-.navbar-website {
-    float: right;
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.5);
-    margin-top: 14px;
-    margin-right: 15px;
-    transition: 0.3s linear;
-}
-
-.navbar-website:hover {
-    color: #000000;
-    transition: 0.3s linear;
-}
-
-.navbar-websitet {
-    float: right;
-    text-decoration: none;
-    color:#000000;
-    margin-top: 14px;
-    margin-right: 15px;
-}

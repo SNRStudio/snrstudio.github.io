@@ -1,0 +1,33 @@
+﻿.footer-block {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    background-position-x: 0px;
+    z-index: -100;
+    box-shadow: 0px 0px 5px #808080;
+}
+
+.footer-website {
+    float: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 14px;
+    margin-left: 15px;
+    transition: 0.3s linear;
+}
+
+.footer-website:hover {
+    color: #000000;
+    transition: 0.3s linear;
+}
+
+.footer-websitet {
+    float: left;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 14px;
+    margin-left: 15px;
+}
