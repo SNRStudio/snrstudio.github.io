@@ -16,12 +16,17 @@ a {
 }
 
 .text-title1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-title2 {
     font-size: 25px;
     font-weight: bold;
 }
 
-.text-locate {
-    margin: 0px;
+.text-title3 {
+    font-weight: bold;
 }
 
 .text-update {
