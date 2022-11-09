@@ -38,3 +38,9 @@ text-common {
     margin: 0px;
     color: #000000;
 }
+
+.text-creator {
+    margin: 0px;
+    float:right;
+    color: #808080;
+}
