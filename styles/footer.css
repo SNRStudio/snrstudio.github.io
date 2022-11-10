@@ -1,13 +1,15 @@
 ﻿.footer-block {
-    height:50px;
-    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    overflow: hidden;
-    background-position-x: 0px;
-    z-index: -100;
-    box-shadow: 0px 0px 5px #808080;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px #808080;
+    height:50px;
 }
 
 .footer-website {
