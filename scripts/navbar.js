@@ -3,7 +3,7 @@ document.write("            <img class=\"navbar-image\" src=\"..\/images\/navbar
 document.write("            <p class=\"navbar-title\">SNR团队官方网站<\/p>");
 document.write("            <a href=\"..\/index.html\" class=\"navbar-homepage\">首页<\/a>");
 document.write("            <a href=\"..\/pages/B-1-minecraft.html\" class=\"navbar-homepage\">Minecraft版<\/a>");
-document.write("            <a href=\"..\/pages/B-2-mtutorials.html\" class=\"navbar-homepage\">教程版<\/a>");
+document.write("            <a href=\"..\/pages/B-2-tutorials.html\" class=\"navbar-homepage\">教程版<\/a>");
 document.write("            <a href=\"..\/pages/B-3-software.html\" class=\"navbar-homepage\">软件版<\/a>");
 document.write("            <a href=\"..\/pages/B-allarticles.html\" class=\"navbar-homepage\">所有文章<\/a>");
 document.write("            <a href=\"..\/pages/A-infopage.html\" class=\"navbar-homepage\">关于<\/a>");
