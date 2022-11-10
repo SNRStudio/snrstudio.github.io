@@ -44,3 +44,10 @@ text-common {
     float:right;
     color: #808080;
 }
+
+hr{
+    border-style:solid;
+    border-color:#808080;
+    height:0.1px;
+    background-color:#808080;
+}
