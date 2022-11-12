@@ -1,0 +1,14 @@
+.t-bold {
+    font-weight: bold;
+}
+
+.t-info {
+    margin: 0px;
+    color: #808080;
+}
+
+.t-author {
+    margin: 0px;
+    float: right;
+    color: #808080;
+}

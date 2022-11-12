@@ -1,0 +1,45 @@
+.n-block {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    background-position-x: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 0px 0px 5px #808080;
+}
+
+.n-image {
+    margin: 5px;
+    height: 40px;
+    width: 35px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.n-title {
+    float: left;
+    margin-top: 11px;
+    font-size: 20px;
+    color: #000000;
+    width: 170px;
+    text-align: center;
+}
+
+.n-homepage {
+    float: left;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.5);
+    margin-top: 14px;
+    margin-left: 15px;
+    transition: 0.3s linear;
+}
+
+.n-homepage:hover {
+    color: #000000;
+    transition: 0.3s linear;
+}
