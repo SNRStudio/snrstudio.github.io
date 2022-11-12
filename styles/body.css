@@ -31,3 +31,12 @@ body::-webkit-scrollbar-track {
 *::-webkit-selection {
     background-color: rgba(124, 185, 255, 0.5);
 }
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #BBBBBB;
+    border-radius: 1px;
+    background-color: #BBBBBB;
+}

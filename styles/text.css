@@ -3,6 +3,8 @@ p {
     word-wrap: break-word;
     word-break: break-all;
     overflow:auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 a {
@@ -13,6 +15,8 @@ a {
     overflow:auto;
     color:  rgba(0, 119, 255, 1);
     text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .text-title1 {
@@ -26,7 +30,7 @@ a {
     margin-bottom: 5px;
 }
 
-.text-title3 {
+.text-bold {
     font-weight: bold;
 }
 
@@ -48,8 +52,8 @@ text-common {
 
 .text-footer-website {
     margin: 0px;
-    margin-top: 14px;
-    margin-left: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
     float: left;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
@@ -58,16 +62,16 @@ text-common {
 
 .text-footer-website:hover {
     margin: 0px;
-    margin-top: 14px;
-    margin-left: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
     color: #000000;
     transition: 0.3s linear;
 }
 
 .text-footer-websitetitle {
     margin: 0px;
-    margin-top: 14px;
-    margin-left: 14px;
+    margin-top: 15px;
+    margin-left: 30px;
     float: left;
     text-decoration: none;
     color: #000000;
