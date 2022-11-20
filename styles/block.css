@@ -13,10 +13,12 @@
 
 .b-card {
     margin: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     background-color: rgba(255, 255, 255,0.7);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px #e2e2e2;
+    box-shadow: 0px 2px 8px #a6a6a6;
 }
 
 .b-section {
@@ -25,7 +27,7 @@
     background-color: rgba(255, 255, 255,0.7);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px #e2e2e2;
+    box-shadow: 0px 2px 8px #a6a6a6;
     width: 350px;
     margin-right: 10px;
     height: 200px;
@@ -43,5 +45,5 @@
     position: fixed;
     top: 0px;
     z-index: 1;
-    box-shadow: 0px 0px 5px #e2e2e2;
+    box-shadow: 0px 0px 8px #a6a6a6;
 }
