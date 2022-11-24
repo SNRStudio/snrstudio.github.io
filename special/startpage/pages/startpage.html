@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
     <title>SNR Start</title>
     <script type="text/javascript" src="../scripts/head.js"></script>
 </head>
 <body>
-    <div class="b-block">
-        <p>¿ª°Ú</p>
-        <button id="btn">content</button>
-        <div id="box" class="b-card">
-            <p>Text</p>
-        </div>
-        <script>
-            var btn = document.getElementById("btn");
-            var box = document.getElementById("box");
+    <button id="btn" class="button-none"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class=""><path d="M12 17a2 2 0 110 4 2 2 0 010-4zm7 0a2 2 0 110 4 2 2 0 010-4zM5 17a2 2 0 110 4 2 2 0 010-4zm7-7a2 2 0 110 4 2 2 0 010-4zm7 0a2 2 0 110 4 2 2 0 010-4zM5 10a2 2 0 110 4 2 2 0 010-4zm7-7a2 2 0 110 4 2 2 0 010-4zm7 0a2 2 0 110 4 2 2 0 010-4zM5 3a2 2 0 110 4 2 2 0 010-4z"></path></svg></button>
 
-            btn.onclick = function () {
-                //Èç¹ûÔªËØdivµ±Ç°ÊÇÏÔÊ¾µÄ, ¾ÍÈÃËûÒş²Ø
-                if (btn.innerHTML == "µã»÷Òş²Ø") {
-                    box.className = "b-floatcard-hide";
-                    btn.innerHTML = "µã»÷ÏÔÊ¾";
-                }
-                else {
-                    box.className = "b-floatcard-show";
-                    btn.innerHTML = "µã»÷Òş²Ø";
-                }
-
-            };
-
-        </script>
+    <div id="box" class="b-floatcard-show">
+        <p class="text-bold">SNRç½‘ç«™å¯¼èˆª</p>
+        <table border="0">
+            <tr>
+                <td><a href="../../../index.html">SNRå›¢é˜Ÿå®˜æ–¹ç½‘ç«™</a></td>
+            </tr>
+        </table>
     </div>
+
+    <script>
+        var btn = document.getElementById("btn");
+        var box = document.getElementById("box");
+        btn.onclick = function () {
+            //å¦‚æœå…ƒç´ divå½“å‰æ˜¯æ˜¾ç¤ºçš„, å°±è®©ä»–éšè—
+            if (box.className == "b-floatcard-show") {
+                box.className = "b-floatcard-hide";
+                /*btn.innerHTML = "ç‚¹å‡»æ˜¾ç¤º";*/
+            }
+            else {
+                box.className = "b-floatcard-show";
+                /*btn.innerHTML = "ç‚¹å‡»éšè—";*/
+            }
+
+        };
+    </script>
 </body>
 </html>

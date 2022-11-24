@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: url(../images/background1.png) fixed center;
+    background: url(../../images/background1.png) fixed center;
     background-size: cover;
     min-width: 650px;
 }
@@ -58,10 +58,25 @@ button {
     background-color: #ffffffa6;
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 6px;
+    box-shadow: 0px 2px 8px #a6a6a6;
+    margin:4px;
+}
+
+.button-none {
+    background-color: #ffffff00;
+    border: none;
+    color: black;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    box-shadow: 0px 0px 0px #00000000;
 }
