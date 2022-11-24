@@ -80,3 +80,17 @@ button {
     margin: 8px;
     box-shadow: 0px 0px 0px #00000000;
 }
+
+.button-search {
+    background-color: #ffffffa6;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 4px;
+    float: right;
+}
