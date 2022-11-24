@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    background: url(../images/background1.png) fixed center;
+    background-size: cover;
+    min-width: 650px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0.5px;
+    background-color: #BBBBBB;
+}
+
+img{
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 700px;
+    max-width: 100%;
+}
+
+p {
+    font-size: 19px;
+    margin: 0px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-size: 19px;
+    margin: 0px;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow:auto;
+    color:  rgba(0, 119, 255, 1);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: bold;
+}
