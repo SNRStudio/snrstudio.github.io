@@ -7,6 +7,28 @@
 <body>
     <div class="b-block">
         <p>开摆</p>
+        <button id="btn">content</button>
+        <div id="box" class="b-card">
+            <p>Text</p>
+        </div>
+        <script>
+            var btn = document.getElementById("btn");
+            var box = document.getElementById("box");
+
+            btn.onclick = function () {
+                //如果元素div当前是显示的, 就让他隐藏
+                if (btn.innerHTML == "点击隐藏") {
+                    box.className = "b-floatcard-hide";
+                    btn.innerHTML = "点击显示";
+                }
+                else {
+                    box.className = "b-floatcard-show";
+                    btn.innerHTML = "点击隐藏";
+                }
+
+            };
+
+        </script>
     </div>
 </body>
 </html>
