@@ -10,7 +10,7 @@
     <div id="box" class="b-floatcard-hide">
         <table border="0">
             <tr>
-                <td><a href="../../../index.html"><img src="../images/wicon.png" style="width:35px;height:35px;"/></a></td>
+                <td><a href="../../../index.html"><img src="../images/wicon.png" style="width:35px;height:35px;" /></a></td>
                 <td><p>SNR主站</p></td>
             </tr>
         </table>
@@ -22,18 +22,38 @@
             //如果元素div当前是显示的, 就让他隐藏
             if (box.className == "b-floatcard-show") {
                 box.className = "b-floatcard-hide";
-                /*btn.innerHTML = "点击显示";*/
             }
             else {
                 box.className = "b-floatcard-show";
-                /*btn.innerHTML = "点击隐藏";*/
             }
 
         };
     </script>
+    <h1 style="text-align: center;text-shadow: 0px 1px 5px #909090" class="timetext">Time</h1>
+    <script>
+        function getTime() {
+            var date = new Date();
+            //var year = date.getFullYear(); //获取年份
+            //var month = date.getMonth() + 1; //获取月份
+            //var day = date.getDate(); //获取日期
+            var hour = date.getHours(); //获取小时
+            hour = hour < 10 ? '0' + hour : hour;
+            var minute = date.getMinutes(); // 获取分
+            minute = minute < 10 ? '0' + minute : minute;
+            var seconds = date.getSeconds(); //获取秒
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            return + hour + ':' + minute + ':' + seconds;
+        }
+
+        setInterval(function () {
+            document.querySelector('.timetext').innerHTML = getTime();
+        }, 1000)
+    </script>
+
+    <h3 style="text-align: center; text-shadow: 0px 1px 5px #909090">Weather</h3>
     <form action="https://cn.bing.com/search" target="_self" method="get">
         <div class="b-searchbox">
-            <input type="text" id="search-input" name="q" placeholder="请输入要搜索的内容：" autofocus class="button-none">
+            <input type="text" id="search-input" name="q" placeholder="请输入要搜索的内容：" autofocus class="button-none" style="width:100%-70px;height:100%;">
             <input type="submit" id="search-button" value="Search" class="button-search">
         </div>
     </form>

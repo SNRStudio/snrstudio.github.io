@@ -57,6 +57,14 @@ h2 {
     color: #FFFFFF;
 }
 
+h3 {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
 button {
     background-color: #000000a6;
     border: none;
@@ -85,6 +93,8 @@ button {
 }
 
 .button-search {
+    width:70px;
+    height:100%;
     background-color: #000000a6;
     border: none;
     color: white;
@@ -94,6 +104,6 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 6px;
-    margin: 4px;
+    margin: 0px;
     float: right
 }
