@@ -56,6 +56,33 @@
             <input type="submit" id="search-button" value="搜索" class="button-search">
         </div>
     </form>
-    <p style="text-align: center;color:black;">⌊要是累了，就滚回功率坐和放宽一会儿吧⌉</p>
+    <p style="text-align: center;color:black;margin-top:40px;font-size:14px;font-weight:bold" class="randompoem">「poem」</p>
+    <script>
+        var len = 10;//多少句诗
+        var randomint = Math.floor(Math.random() * len);//随机数
+        var text = new Array(len);//建立数组
+        text[0] = "相寻梦里路，飞雨落花中";
+        text[1] = "画堂人静雨蒙蒙，屏山半掩余香袅";
+        text[2] = "细雨湿衣看不见，闲花落地听无声";
+        text[3] = "滴空阶、寒更雨歇，葬花天气";
+        text[4] = "山中何事？松花酿酒，春水煎茶";
+        text[5] = "秋阴不散霜飞晚，留得枯荷听雨声";
+        text[6] = "寒鸦飞数点，流水绕孤村";
+        text[7] = "一往情深深几许？深山夕照深秋雨";
+        text[8] = "杏花疏影里，吹笛到天明";
+        text[9] = "秋风生渭水，落叶满长安";
+        var author = new Array(len);//建立数组
+        author[0] = "晏几道";
+        author[1] = "寇准";
+        author[2] = "刘长卿";
+        author[3] = "纳兰性德";
+        author[4] = "张可久";
+        author[5] = "李商隐";
+        author[6] = "杨广";
+        author[7] = "纳兰容若";
+        author[8] = "陈与义";
+        author[9] = "贾岛";
+        document.querySelector('.randompoem').innerHTML = "「" + text[randomint] + "」"+"&nbsp——&nbsp "+author[randomint];//设置
+    </script>
 </body>
 </html>
