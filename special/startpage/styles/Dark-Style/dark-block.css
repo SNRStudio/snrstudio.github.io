@@ -88,7 +88,15 @@
     border-radius: 6px;
     border: none;
     box-shadow: 0px 2px 8px #222222;
+    transition: 0.1s ease-out;
 }
+
+    .b-searchbox:hover {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        transition: 0.1s ease-out;
+    }
 
 .b-insearchbox {
     outline: none;
