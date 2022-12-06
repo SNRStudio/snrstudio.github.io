@@ -47,10 +47,34 @@
     display: block;
     position: fixed;
     backdrop-filter: blur(10px);
+    animation: fadeInAnimation ease 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .b-floatcard-hide {
     display: none;
+    animation: fadeOutAnimation ease 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .b-searchbox {

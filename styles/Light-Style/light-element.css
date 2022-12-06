@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: url(../images/background1.png) fixed center;
+    background: url(../../images/background1.png) fixed center;
     background-size: cover;
     min-width: 650px;
 }
