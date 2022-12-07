@@ -94,7 +94,7 @@
     transition: 0.1s ease-out;
 }
 
-    .b-searchbox:hover {
+    .b-searchbox:active {
         margin-left: 15%;
         margin-right: 15%;
         width: 70%;
