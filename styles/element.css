@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: url(../../images/background2.png) fixed center;
+    background: var(--background-url) fixed center;
     background-size: cover;
     min-width: 650px;
 }
@@ -9,7 +9,7 @@ hr{
     margin-top: 20px;
     margin-bottom: 20px;
     border-width: 0.5px;
-    background-color: #444444;
+    background-color: var(--line-color);
 }
 
 img{
@@ -27,7 +27,7 @@ p {
     word-break: break-all;
     overflow: auto;
     font-family: 'Times New Roman', Times, serif;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 a {
@@ -37,7 +37,7 @@ a {
     word-wrap: break-word;
     word-break: break-all;
     overflow: auto;
-    color: rgba(0, 119, 255, 1);
+    color: var(--link-color);
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -46,7 +46,7 @@ h1 {
     margin: 0px;
     font-size: 32px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 h2 {
@@ -54,5 +54,5 @@ h2 {
     margin-bottom: 5px;
     font-size: 26px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--font-color);
 }

@@ -3,31 +3,31 @@
     margin-bottom: 20px;
     margin-left: 7%;
     margin-right: 7%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--block-background-color);
 	backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: 8px;
-	box-shadow: 0px 5px 20px #000000;
+	box-shadow: 0px 5px 20px var(--block-shadow-color);
 }
 
 .b-card {
     margin: 0px;
     margin-top: 3px;
     margin-bottom: 3px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--block-background-color);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px #000000;
+    box-shadow: 0px 2px 8px var(--block-shadow-color);
 }
 
 .b-section {
     margin: 0px;
     margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--block-background-color);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px #000000;
+    box-shadow: 0px 2px 8px var(--block-shadow-color);
     width: 350px;
     margin-right: 10px;
     height: 200px;
@@ -37,7 +37,7 @@
 .b-navbar {
     height: 50px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--block-background-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     overflow: hidden;
@@ -45,5 +45,5 @@
     position: fixed;
     top: 0px;
     z-index: 1;
-    box-shadow: 0px 2px 8px #000000;
+    box-shadow: 0px 2px 8px var(--block-shadow-color);
 }

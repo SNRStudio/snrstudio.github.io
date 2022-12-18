@@ -1,0 +1,13 @@
+:root {
+    --scrollbar-thumb-color: #EDEDED;
+    --scrollbar-track-color: #535353;
+    --block-background-color: rgba(0, 0, 0, 0.7);
+    --block-shadow-color: #000000;
+    --line-color: #FFFFFF;
+    --font-color: #FFFFFF;
+    --link-color: rgba(0, 179, 255, 1);
+    --font-gray-color: #BBBBBB;
+    --navbar-link-color: rgba(255, 255, 255, 0.5);
+    --navbar-link-hover-color: #FFFFFF;
+    --background-url: url(../images/background2.png);
+}
