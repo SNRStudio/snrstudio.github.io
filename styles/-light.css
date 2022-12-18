@@ -9,5 +9,6 @@
     --font-gray-color: #BBBBBB;
     --navbar-link-color: rgba(0, 0, 0, 0.5);
     --navbar-link-hover-color: #000000;
+    --none-color:#00000000;
     --background-url: url(../images/background1.png);
 }

@@ -6,8 +6,9 @@
     --line-color: #FFFFFF;
     --font-color: #FFFFFF;
     --link-color: rgba(0, 179, 255, 1);
-    --font-gray-color: #BBBBBB;
+    --font-gray-color: #d8d8d8;
     --navbar-link-color: rgba(255, 255, 255, 0.5);
     --navbar-link-hover-color: #FFFFFF;
+    --none-color: #00000000;
     --background-url: url(../images/background2.png);
 }
