@@ -5,6 +5,7 @@ document.write("        <link href=\"..\/styles\/block.css\" rel=\"stylesheet\">
 document.write("        <link href=\"..\/styles\/text.css\" rel=\"stylesheet\">");
 document.write("        <link href=\"..\/styles\/space.css\" rel=\"stylesheet\">");
 document.write("        <link href=\"..\/styles\/navbar.css\" rel=\"stylesheet\">");
+document.write("        <link href=\"..\/styles\/root.css\" rel=\"stylesheet\">");
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.write("        <link href=\"..\/styles\/-dark.css\" rel=\"stylesheet\">");
 } else {

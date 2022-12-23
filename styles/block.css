@@ -4,11 +4,11 @@
     margin-left: 7%;
     margin-right: 7%;
     background-color: var(--block-background-color);
-	backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--block-blur);
+    -webkit-backdrop-filter: var(--block-blur);
     padding: 30px;
     border-radius: 8px;
-	box-shadow: 0px 5px 20px var(--block-shadow-color);
+    box-shadow: 0px 5px 20px var(--block-shadow-color);
 }
 
 .b-card {
@@ -38,8 +38,8 @@
     height: 50px;
     width: 100%;
     background-color: var(--block-background-color);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--block-blur);
+    -webkit-backdrop-filter: var(--block-blur);
     overflow: hidden;
     background-position-x: 0px;
     position: fixed;
