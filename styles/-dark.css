@@ -3,12 +3,24 @@
     --scrollbar-track-color: #535353;
     --block-background-color: rgba(0, 0, 0, 0.7);
     --block-shadow-color: #000000;
+    --block-light-shadow-color: #252525;
     --line-color: #FFFFFF;
     --font-color: #FFFFFF;
     --font-notice-color: #e58900;
+    --link-color: rgba(0, 139, 255, 1);
     --font-gray-color: #d8d8d8;
     --navbar-link-color: rgba(255, 255, 255, 0.5);
     --navbar-link-hover-color: #FFFFFF;
+    /*For notice blocks*/
+    --notice-color-info: #00AEEC;
+    --notice-block-color-info: #DFF6FD;
+    --notice-color-error: #F85A54;
+    --notice-block-color-error: #FEECEA;
+    --notice-color-complete: #2AC864;
+    --notice-block-color-complete: #E4F8EA;
+    --notice-color-warn: #FFB027;
+    --notice-block-color-warn: #FFF6E4;
+    /*End of new part*/
     --none-color: #00000000;
     --background-url: url(../images/background2.png);
 }

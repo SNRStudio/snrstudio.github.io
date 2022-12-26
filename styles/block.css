@@ -18,7 +18,7 @@
     background-color: var(--block-background-color);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px var(--block-shadow-color);
+    box-shadow: 0px 2px 8px var(--block-light-shadow-color);
 }
 
 .b-section {
@@ -27,7 +27,7 @@
     background-color: var(--block-background-color);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px var(--block-shadow-color);
+    box-shadow: 0px 2px 8px var(--block-light-shadow-color);
     width: 350px;
     margin-right: 10px;
     height: 200px;
