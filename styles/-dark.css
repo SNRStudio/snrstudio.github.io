@@ -1,0 +1,33 @@
+:root {
+    --scrollbar-thumb-color: #EDEDED;
+    --scrollbar-track-color: #535353;
+    --block-background-color: rgba(0, 0, 0, 0.7);
+    --block-shadow-color: #000000;
+    --card-background-color: rgba(0, 0, 0, 0.7);
+    --card-shadow-color: #252525;
+    --section-background-color: rgba(0, 0, 0, 0.7);
+    --section-shadow-color: #252525;
+    --line-color: #FFFFFF;
+    --font-color: #FFFFFF;
+    --link-color: rgba(0, 179, 255, 1);
+    --font-gray-color: #BBBBBB;
+    --navbar-link-color: rgba(255, 255, 255, 0.5);
+    --navbar-link-hover-color: #FFFFFF;
+    --background-url: url(../images/background2.png);
+    --notice-color-font-info: hsl(196, 100%, 46%);
+    --notice-color-border-info: hsl(196, 100%, 46%);
+    --notice-color-background-info: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-info: rgba(0, 0, 0, 0.0);
+    --notice-color-font-error: hsl(2, 92%, 65%);
+    --notice-color-border-error: hsl(2, 92%, 65%);
+    --notice-color-background-error: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-error: rgba(0, 0, 0, 0.0);
+    --notice-color-font-success: hsl(142, 65%, 47%);
+    --notice-color-border-success: hsl(142, 65%, 47%);
+    --notice-color-background-success: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-success: rgba(0, 0, 0, 0.0);
+    --notice-color-font-warn: hsl(38, 100%, 58%);
+    --notice-color-border-warn: hsl(38, 100%, 58%);
+    --notice-color-background-warn: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-warn: rgba(0, 0, 0, 0.0);
+}

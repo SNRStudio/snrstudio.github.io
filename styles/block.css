@@ -1,0 +1,87 @@
+.b-block {
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: var(--block-background-color);
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 8px;
+	box-shadow: 0px 5px 20px var(--block-shadow-color);
+}
+
+.b-card {
+    margin: 0px;
+    background-color: var(--card-background-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--card-shadow-color);
+}
+
+.b-section {
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: var(--section-background-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--section-shadow-color);
+    width: 350px;
+    margin-right: 10px;
+    height: 200px;
+    display: inline-block;
+}
+
+.b-navbar {
+    height: 50px;
+    width: 100%;
+    background-color: var(--block-background-color);
+    backdrop-filter: var(--block-blur);
+    -webkit-backdrop-filter: var(--block-blur);
+    overflow: hidden;
+    background-position-x: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 2px 8px var(--block-shadow-color);
+}
+
+.b-warn-card {
+    margin: 0px;
+    background-color: var(--notice-color-background-warn);
+    border: 1px solid var(--notice-color-border-warn);
+    padding-block: 0px 15px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-color-shadow-warn);
+}
+
+.b-info-card {
+    margin: 0px;
+    background-color: var(--notice-color-background-info);
+    border: 1px solid var(--notice-color-border-info);
+    padding-block: 0px 15px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-color-shadow-info);
+}
+
+.b-error-card {
+    margin: 0px;
+    background-color: var(--notice-color-background-error);
+    border: 1px solid var(--notice-color-border-error);
+    padding-block: 0px 15px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-color-shadow-error);
+}
+
+.b-success-card {
+    margin: 0px;
+    background-color: var(--notice-color-background-success);
+    border: 1px solid var(--notice-color-border-success);
+    padding-block: 0px 15px;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-color-shadow-success);
+}
