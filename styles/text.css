@@ -55,3 +55,19 @@
     font-size: 26px;
     font-weight: bold;
 }
+
+.t-notice-warn {
+    color: var(--notice-color-warn);
+}
+
+.t-notice-error {
+    color: var(--notice-color-error);
+}
+
+.t-notice-success {
+    color: var(--notice-color-success);
+}
+
+.t-notice-info {
+    color: var(--notice-color-info);
+}

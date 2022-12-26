@@ -1,3 +1,4 @@
+/*一级容器*/
 .b-block {
     margin: 0px;
     margin-bottom: 20px;
@@ -10,21 +11,75 @@
     border-radius: 8px;
     box-shadow: 0px 5px 20px var(--block-shadow-color);
 }
-
+/*二三四级容器*/
 .b-card {
     margin: 0px;
     margin-top: 3px;
     margin-bottom: 3px;
-    background-color: var(--block-background-color);
+    background-color: var(--block-light-background-color);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 2px 8px var(--block-light-shadow-color);
 }
 
+.b-warn-card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--notice-block-color-warn);
+    color: var(--notice-color-warn);
+    border: 1px solid var(--notice-color-warn);
+    padding-block: 0px 1em;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-shadow-color-warn);
+}
+
+.b-error-card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--notice-block-color-error);
+    color: var(--notice-color-error);
+    border: 1px solid var(--notice-color-error);
+    padding-block: 0px 1em;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-shadow-color-error);
+}
+
+.b-success-card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--notice-block-color-success);
+    color: var(--notice-color-success);
+    border: 1px solid var(--notice-color-success);
+    padding-block: 0px 1em;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-shadow-color-success);
+}
+
+.b-info-card {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--notice-block-color-info);
+    color: var(--notice-color-info);
+    border: 1px solid var(--notice-color-info);
+    padding-block: 0px 1em;
+    padding-inline: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px var(--notice-shadow-color-info);
+}
+
+/*END*/
+/*带图像卡片*/
 .b-section {
     margin: 0px;
     margin-bottom: 10px;
-    background-color: var(--block-background-color);
+    background-color: var(--block-light-background-color);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 2px 8px var(--block-light-shadow-color);
@@ -33,7 +88,7 @@
     height: 200px;
     display: inline-block;
 }
-
+/*导航栏*/
 .b-navbar {
     height: 50px;
     width: 100%;
