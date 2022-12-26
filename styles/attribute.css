@@ -14,13 +14,13 @@ body::-webkit-scrollbar-track {
 }
 
 *::selection {
-    background-color: rgba(124, 185, 255, 0.5);
+    background-color: var(--selection-color);
 }
 
 *::-moz-selection {
-    background-color: rgba(124, 185, 255, 0.5);
+    background-color: var(--selection-color);
 }
  
 *::-webkit-selection {
-    background-color: rgba(124, 185, 255, 0.5);
+    background-color: var(--selection-color);
 }

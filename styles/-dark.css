@@ -2,34 +2,32 @@
     --scrollbar-thumb-color: #EDEDED;
     --scrollbar-track-color: #535353;
     --block-background-color: rgba(0, 0, 0, 0.7);
-    --block-light-background-color: rgb(33, 33, 33, 0.70);
     --block-shadow-color: #000000;
-    --block-light-shadow-color: #252525;
+    --card-background-color: rgba(0, 0, 0, 0.7);
+    --card-shadow-color: #252525;
+    --section-background-color: rgba(0, 0, 0, 0.7);
+    --section-shadow-color: #252525;
     --line-color: #FFFFFF;
     --font-color: #FFFFFF;
-    --font-notice-color: #e58900;
-    --link-color: rgba(0, 139, 255, 1);
-    --font-gray-color: #d8d8d8;
+    --link-color: rgba(0, 179, 255, 1);
+    --font-gray-color: #BBBBBB;
     --navbar-link-color: rgba(255, 255, 255, 0.5);
     --navbar-link-hover-color: #FFFFFF;
-    /*For notice blocks*/
-    /*info*/
-    --notice-color-info: hsl(196, 100%, 80%);
-    --notice-block-color-info: hsl(194, 95%, 40%);
-    --notice-shadow-color-info: hsla(194, 100%, 50%, 0.56);
-    /*error*/
-    --notice-color-error: hsl(2, 92%, 65%);
-    --notice-block-color-error: hsl(6, 91%, 96%);
-    --notice-shadow-color-error: hsla(7, 94%, 53%, 0.56);
-    /*success*/
-    --notice-color-success: hsl(142, 65%, 47%);
-    --notice-block-color-success: hsl(138, 59%, 93%);
-    --notice-shadow-color-success: hsla(156, 72%, 51%, 0.56);
-    /*warn*/
-    --notice-color-warn: hsl(38, 100%, 58%);
-    --notice-block-color-warn: hsl(40, 100%, 95%);
-    --notice-shadow-color-warn: hsla(38, 100%, 68%, 0.56);
-    /*End of new part*/
-    --none-color: #00000000;
     --background-url: url(../images/background2.png);
+    --notice-color-font-info: hsl(196, 100%, 46%);
+    --notice-color-border-info: hsl(196, 100%, 46%);
+    --notice-color-background-info: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-info: rgba(0, 0, 0, 0.0);
+    --notice-color-font-error: hsl(2, 92%, 65%);
+    --notice-color-border-error: hsl(2, 92%, 65%);
+    --notice-color-background-error: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-error: rgba(0, 0, 0, 0.0);
+    --notice-color-font-success: hsl(142, 65%, 47%);
+    --notice-color-border-success: hsl(142, 65%, 47%);
+    --notice-color-background-success: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-success: rgba(0, 0, 0, 0.0);
+    --notice-color-font-warn: hsl(38, 100%, 58%);
+    --notice-color-border-warn: hsl(38, 100%, 58%);
+    --notice-color-background-warn: rgba(55, 55, 55, 0.7);
+    --notice-color-shadow-warn: rgba(0, 0, 0, 0.0);
 }

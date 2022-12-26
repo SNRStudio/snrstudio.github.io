@@ -57,17 +57,17 @@
 }
 
 .t-notice-warn {
-    color: var(--notice-color-warn);
+    color: var(--notice-color-font-warn);
 }
 
 .t-notice-error {
-    color: var(--notice-color-error);
+    color: var(--notice-color-font-error);
 }
 
 .t-notice-success {
-    color: var(--notice-color-success);
+    color: var(--notice-color-font-success);
 }
 
 .t-notice-info {
-    color: var(--notice-color-info);
+    color: var(--notice-color-font-info);
 }

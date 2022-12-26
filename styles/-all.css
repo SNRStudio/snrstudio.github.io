@@ -1,0 +1,4 @@
+:root {
+    --block-blur: blur(10px) saturate(1.8);
+    --selection-color: rgba(124, 185, 255, 0.5);
+}
