@@ -31,10 +31,10 @@
 .b-searchbox {
     backdrop-filter: var(--block-blur);
     margin: 8px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     height: 50px;
-    width: 60%;
+    width: 70%;
     background-color: var(--block-background-color);
     padding: 0px;
     border-radius: 6px;
@@ -42,13 +42,6 @@
     box-shadow: 0px 2px 8px var(--block-shadow-color);
     transition: 0.15s ease-out
 }
-
-    .b-searchbox:hover {
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70%;
-        transition: 0.15s ease-out
-    }
 
 .b-insearchbox {
     outline: none;
@@ -67,4 +60,30 @@
 .b-weatherframe {
     display: block;
     margin: 0 auto;
+}
+
+.b-websiteblock {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:100px;
+    background-color: var(--card-light-background-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.b-websitecard {
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    margin-right:5px;
+    background-color: var(--card-background-color);
+    padding: 0px;
+    border-radius: 8px;
+    backdrop-filter: var(--block-blur);
+    box-shadow: 0px 2px 8px var(--card-shadow-color);
 }
