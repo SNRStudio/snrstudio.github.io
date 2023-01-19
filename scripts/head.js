@@ -11,3 +11,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 } else {
     document.write("        <link href=\"..\/styles\/-light.css\" rel=\"stylesheet\">");
 }
+var pgnme = getComputedStyle(document.documentElement).getPropertyValue('--pagename');
+var wbnmestr = "SNR Studio";
+var pgtitle = pgnme.concat(" - ",wbnmestr);
+document.title = pgtitle;
