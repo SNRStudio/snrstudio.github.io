@@ -1,3 +1,1 @@
-### 🚧Under Construction🚧 ###
-
-The officia lwebsite of SNRstudio.
+# 已经废弃。
